@@ -51,7 +51,7 @@ export function About() {
 
             <p className="text-base sm:text-lg text-zinc-400 leading-relaxed">
               Tengo 2 años de experiencia en semillero de investigación en
-              T.I., desarrollando proyectos para la corrección de postura mediante la detección de puntos.
+              T.I., desarrollando proyectos y participando de manera constrante en foros y conferencias.
             </p>
 
             <p className="text-base sm:text-lg text-zinc-400 leading-relaxed">
