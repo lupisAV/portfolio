@@ -83,7 +83,7 @@ export function About() {
           >
             <StatsCard value="8vo" label="Semestre en curso" />
             <StatsCard value="B2+" label="Nivel de inglés" />
-            <StatsCard value="14+" label="Tecnologías dominadas" />
+            <StatsCard value="14+" label="Tecnologías" />
           </motion.div>
         </div>
       </div>

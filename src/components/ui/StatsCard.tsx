@@ -49,6 +49,14 @@ export function StatsCard({ value, label, className }: StatsCardProps) {
 }
 
 function CountUp({ target }: { target: string }) {
+  // Check if the target contains letters before numbers (like "B2+")
+  const hasPrefix = /^[A-Za-z]/.test(target);
+  
+  // If it has a prefix, don't animate and show the full value
+  if (hasPrefix) {
+    return <span>{target}</span>;
+  }
+
   const numericValue = parseInt(target.replace(/[^0-9]/g, "")) || 0;
   const suffix = target.replace(/[0-9]/g, "");
   const [count, setCount] = useState(0);
