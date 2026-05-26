@@ -19,4 +19,13 @@ export const projects: Project[] = [
     image: "/images/nova-mockup.png",
     color: "#06b6d4",
   },
+    {
+    title: "SOLARMIND",
+    description:
+      "Pipeline de minería de datos para análisis de radiación solar mediante árboles de decisión.",
+    repo: "https://github.com/lupisAV/Solarmind",
+    tags: ["Python", "Machine Learning", "Data Analysis"],
+    image: "/images/solarmind-mockup.png",
+    color: "#f59e0b",
+  },
 ];
