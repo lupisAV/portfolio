@@ -82,7 +82,7 @@ export function About() {
             className="lg:col-span-5 grid grid-cols-1 gap-4"
           >
             <StatsCard value="8vo" label="Semestre en curso" />
-            <StatsCard value="B2+" label="Nivel de inglés" />
+            <StatsCard value="B2" label="Nivel de inglés" />
             <StatsCard value="14+" label="Tecnologías" />
           </motion.div>
         </div>
